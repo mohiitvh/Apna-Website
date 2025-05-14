@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(204, 93, 93);
+}
+h1 
+{
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 20p;
+}
