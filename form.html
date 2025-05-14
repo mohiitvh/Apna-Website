@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
 </head>
+<style>
+    body{
+        background-color: cornflowerblue;
+    }
 
+</style>
 <body>
+    
     <form action="#" style="display: flex; justify-content: center; margin-top: 50px;">
         <div>
 
             <div>
                 <h1>Registriation Form</h1>
-                <label>Name </label>
-                <input type="text">
+                <label>First Name </label>
+                <input type="text" placeholder="First Name"><br><br>
+                <label>Last Name </label>
+                <input type="text" placeholder="Last Name">
             </div>
             <br>
 
@@ -34,13 +42,14 @@
 
             <div>
                 <label>Phone Number </label>
-                <input type="text">
+                <input type="text" placeholder="Mobile Number">
             </div>
             <br>
 
             <div>
                 <label>Password </label>
                 <input type="password">
+                <p style="text-align: center; margin: 0px; font-size: 12px; ">Min 8 Character</p>
             </div>
             <br>
 
@@ -51,12 +60,16 @@
 
                 <input type="radio" name="Gender" value="female">
                 <label for="female">Female </label>
+
+                <input type="radio" name="Gender" value="Other">
+                <label for="Other">Other </label>
             </div>
             <br>
 
             <div>
                 <label>Nationality </label>
                 <select>
+                    <option>-- Select Country --</option>
                     <option>India</option>
                     <option>USA</option>
                     <option>China</option>
