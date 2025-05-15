@@ -11,10 +11,3 @@ nav {
     align-items: center;
     gap: 30px;
 }
-div{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: 20p;
-}
